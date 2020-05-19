@@ -29,7 +29,7 @@ function getNumber(){
                    break;
                   }
       case '16' : $(".2").html("Sweet 16");break;
-      case '17' : $(".2").html("❗KHATRA❗");break;
+      case '17' : $(".2").html("KHATRA!");break;
       case '55' : {$(".2").html("Umar 55");
                    $(".3").html("❤ Bachpan");
                    break;
