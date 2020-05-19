@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Housie Board</title>
+    <meta name="viewport" content="width=device-width , initial scale = 1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://www.1001fonts.com/joycards-font.html?text=Housie">
+  </head>
+  <body>
+    <h5><span class="housie">Housie</span> Board</h5>
+    <h6 class="condition">*Works best on Mobile</h6>
+    <div class="board">
+      <table>
+        <tr class="r1">
+           <td class="notSelect">1</td>
+           <td class="notSelect">16</td>
+           <td class="notSelect">31</td>
+           <td class="notSelect">41</td>
+           <td class="notSelect">51</td>
+           <td class="notSelect">61</td>
+           <td class="notSelect">76</td>
+        </tr>
+        <tr class="r2">
+           <td class="notSelect">2</td>
+           <td class="notSelect">17</td>
+           <td class="notSelect">32</td>
+           <td class="notSelect">42</td>
+           <td class="notSelect">52</td>
+           <td class="notSelect">62</td>
+           <td class="notSelect">77</td>
+        </tr>
+        <tr class="r3">
+           <td class="notSelect">3</td>
+           <td class="notSelect">18</td>
+           <td class="notSelect">33</td>
+           <td class="notSelect">43</td>
+           <td class="notSelect">53</td>
+           <td class="notSelect">63</td>
+           <td class="notSelect">78</td>
+        </tr>
+        <tr class="r4">
+           <td class="notSelect">4</td>
+           <td class="notSelect">19</td>
+           <td class="notSelect">34</td>
+           <td class="notSelect">44</td>
+           <td class="notSelect">54</td>
+           <td class="notSelect">64</td>
+           <td class="notSelect">79</td>
+        </tr>
+        <tr class="r5">
+           <td class="notSelect">5</td>
+           <td class="notSelect">20</td>
+           <td class="notSelect">35</td>
+           <td class="notSelect">45</td>
+           <td class="notSelect">55</td>
+           <td class="notSelect">65</td>
+           <td class="notSelect">80</td>
+        </tr>
+        <tr class="r6">
+           <td class="notSelect">6</td>
+           <td class="notSelect">21</td>
+           <td class="content" colspan="3" rowspan="5">
+             <h1></h1>
+               <p class="1">Click</p>
+               <p class="2">"Number"</p>
+               <p class="3">to Start</p>
+               <br>
+               <button type="button" name="button" class="btn" onclick="getNumber()">Number</button>
+               <button type="button" name="button" class="btn reset" onclick="reset()">Reset</button>
+           </td>
+           <td class="notSelect">66</td>
+           <td class="notSelect">81</td>
+        </tr>
+        <tr class="r7">
+           <td class="notSelect">7</td>
+           <td class="notSelect">22</td>
+           <td class="notSelect">67</td>
+           <td class="notSelect">82</td>
+        </tr>
+        <tr class="r8">
+           <td class="notSelect">8</td>
+           <td class="notSelect">23</td>
+           <td class="notSelect">68</td>
+           <td class="notSelect">83</td>
+        </tr>
+        <tr class="r9">
+           <td class="notSelect">9</td>
+           <td class="notSelect">24</td>
+           <td class="notSelect">69</td>
+           <td class="notSelect">84</td>
+        </tr>
+        <tr class="r10">
+           <td class="notSelect">10</td>
+           <td class="notSelect">25</td>
+           <td class="notSelect">70</td>
+           <td class="notSelect">85</td>
+        </tr>
+        <tr class="r11">
+           <td class="notSelect">11</td>
+           <td class="notSelect">26</td>
+           <td class="notSelect">36</td>
+           <td class="notSelect">46</td>
+           <td class="notSelect">56</td>
+           <td class="notSelect">71</td>
+           <td class="notSelect">86</td>
+        </tr>
+        <tr class="r12">
+           <td class="notSelect">12</td>
+           <td class="notSelect">27</td>
+           <td class="notSelect">37</td>
+           <td class="notSelect">47</td>
+           <td class="notSelect">57</td>
+           <td class="notSelect">72</td>
+           <td class="notSelect">87</td>
+        </tr>
+        <tr class="r13">
+           <td class="notSelect">13</td>
+           <td class="notSelect">28</td>
+           <td class="notSelect">38</td>
+           <td class="notSelect">48</td>
+           <td class="notSelect">58</td>
+           <td class="notSelect">73</td>
+           <td class="notSelect">88</td>
+        </tr>
+        <tr class="r14">
+           <td class="notSelect">14</td>
+           <td class="notSelect">29</td>
+           <td class="notSelect">39</td>
+           <td class="notSelect">49</td>
+           <td class="notSelect">59</td>
+           <td class="notSelect">74</td>
+           <td class="notSelect">89</td>
+        </tr>
+        <tr class="r15">
+           <td class="notSelect">15</td>
+           <td class="notSelect">30</td>
+           <td class="notSelect">40</td>
+           <td class="notSelect">50</td>
+           <td class="notSelect">60</td>
+           <td class="notSelect">75</td>
+           <td class="notSelect">90</td>
+        </tr>
+      </table>
+    </div>
+    <footer>
+          <h5><span class="housie">Housie</span> Board</h5>
+            <p class="name">MADE BY : RAGHAV KHATORIA</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+</html>

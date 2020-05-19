@@ -1,0 +1,92 @@
+*{
+  box-sizing: border-box;
+  text-align: center;
+}
+@font-face {
+  font-family: "JoyCards";
+  src: url("joycards.regular.ttf");
+}
+@font-face {
+  font-family: "Perforama";
+  src: url("Perforama.otf");
+}
+@font-face {
+  font-family: "ThatsSuper";
+  src: url("ThatsSuper.ttf");
+}
+body{
+  background-color: #284184;
+  color: #f4722b;
+}
+.housie{
+    font-family: "JoyCards";
+}
+h5{
+  word-spacing:4px;
+  margin: 5%;
+}
+table {
+  background-color: #aeefec;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 105%;
+  border-collapse: separate;
+  border-spacing: 15px;
+  width: 100vw;
+}
+td{
+  border-radius: 15px;
+  height: 10%;
+}
+.notSelect{
+  background-color: #284184;
+  color: #284184;
+}
+.select{
+  color: #fff;
+}
+footer{
+  margin:5%;
+}
+.content{
+  color: #284184;
+  border: 2.5px solid #284184;
+}
+.btn{
+
+  background-color: #284184;
+  color: #fff;
+}
+h1{
+  letter-spacing: 2.5px;
+  margin: auto auto 0;
+  font-size: 300%;
+  font-family: "ThatsSuper";
+}
+p{
+  margin: auto auto 0;
+}
+.reset{
+  display: none;
+}
+.name{
+  font-size: 85%;
+  font-weight: bold;
+}
+.condition{
+  display: none;
+}
+@media screen and (min-width:600px) {
+  table{
+    width: 100vw;
+  }
+  .condition{
+    display: block;
+  }
+  td{
+    height: 4.5vh;
+    font-size: 125%;
+  }
+  h5{
+    font-size: 300%;
+  }
+}
